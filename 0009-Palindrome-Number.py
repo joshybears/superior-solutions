@@ -4,7 +4,7 @@ class Solution:
         if x < 0:
             return False
 
-        elif x > 0 and x < 10:
+        elif x >= 0 and x < 10:
             return True
 
         # 121
